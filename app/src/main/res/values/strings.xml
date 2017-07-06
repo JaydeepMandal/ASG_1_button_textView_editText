@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">ASG_1_button_textView_editText</string>
+    <string name="app_name">ASSIGNMENT 1</string>
+    <string name="button">Click me</string>
+    <string name="output">Hello World!</string>
 </resources>
