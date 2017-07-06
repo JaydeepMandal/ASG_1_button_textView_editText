@@ -25,10 +25,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void clickable(View v){
-        Editable input;
-        input = edtText.getText();
-        if(input.length()==0){
-            input.insert(0,"Anonymous");
+        String input;
+        input = edtText.getText().toString();
+        if(input.length()==0) {
+            input = "Anonymous";
         }
         tView.setText("Welcome "+input);
     }
