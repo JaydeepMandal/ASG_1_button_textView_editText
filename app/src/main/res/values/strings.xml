@@ -3,5 +3,6 @@
     <string name="button">Click me</string>
     <string name="output">😀 Hello World! 🙏</string>
     <string name="Toast">No Name! 😏</string>
+    <string name="Anonymous">Welcome Anonymous 😅</string>
     <string name="hint">Name</string>
 </resources>

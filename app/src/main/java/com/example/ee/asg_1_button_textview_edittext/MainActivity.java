@@ -1,12 +1,10 @@
 package com.example.ee.asg_1_button_textview_edittext;
 
-import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.view.Gravity;
 import android.view.View;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -35,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             Toast tost = Toast.makeText(getApplicationContext(),R.string.Toast,Toast.LENGTH_LONG);
             tost.setGravity(Gravity.TOP,0,250);
             tost.show();
-            tView.setText("Welcome Anonymous \uD83D\uDE05");
+            tView.setText(R.string.Anonymous);
         }
         else{
             tView.setText("Welcome "+input+" \uD83D\uDE0E");
