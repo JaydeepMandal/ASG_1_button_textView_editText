@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">ASSIGNMENT 1</string>
     <string name="button">Click me</string>
-    <string name="output">Hello World!</string>
+    <string name="output">😀 Hello World! 🙏</string>
+    <string name="Toast">No Name! 😏</string>
     <string name="hint">Name</string>
 </resources>
