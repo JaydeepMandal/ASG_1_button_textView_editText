@@ -39,7 +39,10 @@
         android:textColor="@color/colorPrimaryDark"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintLeft_toLeftOf="@+id/button"
-        app:layout_constraintRight_toRightOf="@+id/button" />
+        app:layout_constraintRight_toRightOf="@+id/button"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView"
@@ -53,5 +56,8 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/editText"
         app:layout_constraintLeft_toLeftOf="@+id/editText"
-        app:layout_constraintRight_toRightOf="@+id/editText" />
+        app:layout_constraintRight_toRightOf="@+id/editText"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="0.976" />
 </android.support.constraint.ConstraintLayout>
