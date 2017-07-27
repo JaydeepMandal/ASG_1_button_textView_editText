@@ -17,6 +17,22 @@ public class MainActivity extends AppCompatActivity {
     Button btn;
     TextView tView;
     EditText edtText;
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString("text",String.valueOf(tView.getText()));
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+
+        if(savedInstanceState != null){
+            tView.setText(savedInstanceState.getString("text"));
+        }
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,4 +70,5 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+
 }
